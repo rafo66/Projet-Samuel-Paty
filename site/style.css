@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+/*variables*/
+:root {
+  /*colors*/
+  --background:#fef6e4;
+  --headline:#001858;
+  --paragraph:#172c66;
+  --button:#f582ae;
+  --button-text:var(--headline);
+  --button-text-hover:var(--headline);
+  --stroke:var(--headline);
+  --main:#f3d2c1;
+  --highlight:var(--background);
+  --secondary:#8bd3dd;
+  --tertiary:var(--button);
+  /*images*/
+  --background-image:url(assets/background-light.svg);
+  --post-image:url(assets/post-light.svg);
+}
+
+/*reset propreties*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.4s;
+}
+
+body {
+  font-family: "Poppins";
+  overflow: overlay;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0.75em;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--headline);
+  border-radius: 100vw;
+}
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  width: 100%;
+  background-color: var(--background);
+  border-bottom: 3px solid var(--stroke);
+}
+
+header a {
+  color: var(--headline);
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 0 25px;
+  font-size: larger;
+}
+.navbar .nav-links li :hover {
+  color: var(--button);
+}
+
+.navbar .nav-links li.active a {
+  color: var(--button);
+}
+
+.btn-dark-mode {
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  background: var(--background);
+  color: var(--button-text);
+  border: 3px solid var(--stroke);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: 0.3s;
+}
+
+.btn-dark-mode:hover {
+  background: var(--button);
+  border-color: var(--button-text-hover);
+  color: var(--button-text-hover);
+}
+
+@media screen and (max-width: 1010px) {
+  .nav-links {
+    display: none;
+  }
+}
+/*content*/
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-image: var(--background-image);
+  background-size: cover;
+}
+
+.post {
+  width: 459px;
+  height: 358px;
+  background-image: var(--post-image);
+}
+
+/*blob loading*/
+.wrapper.hidden {
+  display: none;
+}
+
+.wrapper {
+  --size: 250px;
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  top: 50%;
+  left: 50%;
+  margin: calc(var(--size) / -2);
+}
+.wrapper span {
+  background: var(--tertiary);
+  position: absolute;
+  border-radius: 50%;
+  display: inline-block;
+}
+.wrapper p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wrapper p:nth-child(1) {
+  position: absolute;
+  -webkit-animation: skewing-child 0.2s ease-in-out infinite alternate;
+          animation: skewing-child 0.2s ease-in-out infinite alternate;
+}
+.wrapper p:nth-child(1) span {
+  width: calc(var(--size) / 10);
+  height: calc(var(--size) / 10);
+  margin: calc(var(--size) / -20);
+  -webkit-animation: moving 2s cubic-bezier(0.97, 0.01, 0.12, 0.99) infinite alternate;
+          animation: moving 2s cubic-bezier(0.97, 0.01, 0.12, 0.99) infinite alternate;
+}
+.wrapper p:nth-child(2) {
+  position: absolute;
+  -webkit-animation: squishing 1s ease-in-out infinite alternate;
+          animation: squishing 1s ease-in-out infinite alternate;
+}
+.wrapper p:nth-child(2) span {
+  width: calc(var(--size) / 4);
+  height: calc(var(--size) / 4);
+  top: 50%;
+  left: 50%;
+  margin: calc(var(--size) / -8);
+  -webkit-animation: skewing 2s 1.5s ease-in-out infinite;
+          animation: skewing 2s 1.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes skewing {
+  0% {
+    transform: skewX(6deg);
+  }
+  10% {
+    transform: skewX(-6deg);
+  }
+  20% {
+    transform: skewX(4deg);
+  }
+  30% {
+    transform: skewX(-4deg);
+  }
+  40% {
+    transform: skewX(2deg);
+  }
+  50% {
+    transform: skewX(-6deg);
+  }
+  55% {
+    transform: skewX(6deg);
+  }
+  60% {
+    transform: skewX(-5deg);
+  }
+  65% {
+    transform: skewX(5deg);
+  }
+  70% {
+    transform: skewX(-4deg);
+  }
+  75% {
+    transform: skewX(4deg);
+  }
+  80% {
+    transform: skewX(-3deg);
+  }
+  85% {
+    transform: skewX(3deg);
+  }
+  90% {
+    transform: skewX(-2deg);
+  }
+  95% {
+    transform: skewX(2deg);
+  }
+  100% {
+    transform: skewX(1deg);
+  }
+}
+
+@keyframes skewing {
+  0% {
+    transform: skewX(6deg);
+  }
+  10% {
+    transform: skewX(-6deg);
+  }
+  20% {
+    transform: skewX(4deg);
+  }
+  30% {
+    transform: skewX(-4deg);
+  }
+  40% {
+    transform: skewX(2deg);
+  }
+  50% {
+    transform: skewX(-6deg);
+  }
+  55% {
+    transform: skewX(6deg);
+  }
+  60% {
+    transform: skewX(-5deg);
+  }
+  65% {
+    transform: skewX(5deg);
+  }
+  70% {
+    transform: skewX(-4deg);
+  }
+  75% {
+    transform: skewX(4deg);
+  }
+  80% {
+    transform: skewX(-3deg);
+  }
+  85% {
+    transform: skewX(3deg);
+  }
+  90% {
+    transform: skewX(-2deg);
+  }
+  95% {
+    transform: skewX(2deg);
+  }
+  100% {
+    transform: skewX(1deg);
+  }
+}
+@-webkit-keyframes skewing-child {
+  0% {
+    transform: skewX(-10deg);
+  }
+  100% {
+    transform: skewX(10deg);
+  }
+}
+@keyframes skewing-child {
+  0% {
+    transform: skewX(-10deg);
+  }
+  100% {
+    transform: skewX(10deg);
+  }
+}
+@-webkit-keyframes moving {
+  0% {
+    transform: translate(calc(var(--size) / -2.5));
+  }
+  30% {
+    transform: translate(calc(var(--size) / -10));
+  }
+  70% {
+    transform: translate(calc(var(--size) / 10));
+  }
+  100% {
+    transform: translate(calc(var(--size) / 2.5));
+  }
+}
+@keyframes moving {
+  0% {
+    transform: translate(calc(var(--size) / -2.5));
+  }
+  30% {
+    transform: translate(calc(var(--size) / -10));
+  }
+  70% {
+    transform: translate(calc(var(--size) / 10));
+  }
+  100% {
+    transform: translate(calc(var(--size) / 2.5));
+  }
+}
+@-webkit-keyframes squishing {
+  10%, 40%, 80% {
+    transform: scale(1, 0.9);
+  }
+  0%, 30%, 60%, 100% {
+    transform: scale(0.9, 1);
+  }
+}
+@keyframes squishing {
+  10%, 40%, 80% {
+    transform: scale(1, 0.9);
+  }
+  0%, 30%, 60%, 100% {
+    transform: scale(0.9, 1);
+  }
+}/*# sourceMappingURL=style.css.map */
