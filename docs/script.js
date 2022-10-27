@@ -1,4 +1,4 @@
-const btnDarkMode = document.querySelector('.btn-dark-mode');
+btnDarkMode = document.querySelector('.toggle-btn');
 
 btnDarkMode.addEventListener('click', () =>{
     
@@ -10,7 +10,6 @@ btnDarkMode.addEventListener('click', () =>{
         
         body.classList.add('light')
         body.classList.remove('dark')
-        btnDarkMode.innerHTML = "Dark Mode"
 
         document.documentElement.style.setProperty('--background','#fef6e4')
         document.documentElement.style.setProperty('--headline','#001858')
@@ -32,7 +31,6 @@ btnDarkMode.addEventListener('click', () =>{
 
         body.classList.add('dark')
         body.classList.remove('light')
-        btnDarkMode.innerHTML = "Light Mode"
 
         document.documentElement.style.setProperty('--background','#232946')
         document.documentElement.style.setProperty('--headline','#fffffe')
