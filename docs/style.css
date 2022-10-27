@@ -65,7 +65,7 @@ header a {
 }
 
 .logo {
-  font-size: 2em;
+  font-size: clamp(1rem, 2.5vw, 2rem);
   font-weight: bold;
 }
 
@@ -110,7 +110,7 @@ header a {
 }
 
 @media screen and (max-width: 1010px) {
-  .nav-links {
+  .navbar {
     display: none;
   }
 }
