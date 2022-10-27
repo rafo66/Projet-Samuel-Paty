@@ -10,5 +10,5 @@ Contenu du projet
 -------------------
 
 Le repository se décompose en plusieurs parties :
-* **/site** : stockage de tout les fichiers nécessaires au fonctionnement du site
+* **/docs** : stockage de tout les fichiers nécessaires au fonctionnement du site
 * **/videos** : stockage des interviews enregistrés (certains seront intégrés dans le site)
