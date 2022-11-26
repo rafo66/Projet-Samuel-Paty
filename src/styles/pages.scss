@@ -1,0 +1,38 @@
+.content {
+    height: fit-content;
+    width: 100vw;
+    background-color: var(--background);
+    display: block;
+
+    h1 {
+        color: var(--headline);
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        width: 100%;
+        height: 50%;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        border-bottom: 3px solid var(--stroke);
+
+        #left,
+        #right {
+            border-right: 3px solid var(--stroke);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    #grid1 {
+        border-top: 3px solid var(--stroke);
+    }
+}
