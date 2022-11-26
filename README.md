@@ -4,9 +4,8 @@ Ce projet est licencié sous les termes de la licence Creative Commons Zero v1.0
 Il s'inscrit comme document de participation au concours Samuel Paty, créé par l'APHG en hommage à ce dernier.\
 Les titulaires de ce projet sont les élèves volontaires de la classe 712 de TSTI2D du lycée Henri Loritz.
 
-Le site est consultable avec l'adresse **http://mapfire.github.io/Projet-Samuel-Paty**
 
-Contenu du projet
+Contenu du repository :
 -------------------
 
 Le repository se décompose en plusieurs parties :
