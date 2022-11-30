@@ -45,14 +45,3 @@ body {
     font-family: 'Poppins';
     overflow: overlay;
 }
-
-.content {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: var(--background);
-
-    h1 {
-        color: var(--headline);
-    }
-}
