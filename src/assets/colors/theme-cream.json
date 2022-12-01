@@ -1,0 +1,32 @@
+{
+    "LightMode": [
+        {
+            "background": "",
+            "headline": "",
+            "paragraph": "",
+            "button": "",
+            "button-text": "",
+            "button-text-hover": "",
+            "stroke": "",
+            "main": "",
+            "highlight": "",
+            "secondary": "",
+            "tertiary": ""
+        }
+    ],
+    "DarkMode": [
+        {
+            "background": "",
+            "headline": "",
+            "paragraph": "",
+            "button": "",
+            "button-text": "",
+            "button-text-hover": "",
+            "stroke": "",
+            "main": "",
+            "highlight": "",
+            "secondary": "",
+            "tertiary": ""
+        }
+    ]
+}

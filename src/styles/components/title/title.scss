@@ -1,0 +1,14 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--headline);
+
+    #title {
+        font-size: clamp(1em, 8vw, 10em);
+        text-align: center;
+        color: var(--headline);
+    }
+}

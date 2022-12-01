@@ -1,0 +1,47 @@
+.nav {
+    .logo {
+        display: none;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+        font-weight: bold;
+    }
+
+    a {
+        color: var(--headline);
+    }
+
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: var(--background);
+    color: var(--headline);
+    border-bottom: 3px solid var(--headline);
+}
+
+.nav-links {
+    display: flex;
+
+    li {
+        margin: 0 25px;
+        font-size: clamp(0.5em, 2vw, 1.5em);
+        transition: 0.2s;
+    }
+
+    li:hover {
+        color: var(--button);
+    }
+
+    .nav-active li {
+        color: var(--button);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nav-links {
+        display: none;
+    }
+}
