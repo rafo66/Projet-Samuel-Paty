@@ -1,10 +1,12 @@
 import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
 import Footer from '../../components/footer/Footer';
+import Title from '../../components/title/Title';
 
 const Home = () => {
     return (
         <div id='home'>
+            <Title />
             <Navigation />
             <div className="content">
                 <h1>Acceuil</h1>

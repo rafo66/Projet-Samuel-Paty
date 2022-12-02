@@ -1,3 +1,7 @@
+var json = require('../../assets/colors/theme-orange.json');
+const obj = JSON.parse(json);
+console.log(obj.LightMode[0].background)
+
 const ToggleDarkMode = ({ state }) => {
     console.log('on passe a l\'état ' + state + '.')
     if (state === true) {
