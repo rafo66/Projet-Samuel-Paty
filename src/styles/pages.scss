@@ -17,8 +17,7 @@
         grid-template-rows: auto;
         border-bottom: 3px solid var(--stroke);
 
-        #left,
-        #right {
+        .element {
             border-right: 3px solid var(--stroke);
             display: flex;
             justify-content: center;
@@ -28,9 +27,10 @@
                 font-size: 30px;
             }
         }
-    }
 
-    #grid1 {
-        border-top: 3px solid var(--stroke);
+        #element1,
+        #element2 {
+            border-bottom: 3px solid var(--stroke);
+        }
     }
 }

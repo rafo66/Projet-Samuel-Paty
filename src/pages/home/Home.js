@@ -2,23 +2,23 @@ import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
 import Footer from '../../components/footer/Footer';
 import Title from '../../components/title/Title';
+import ArrowUp from '../../components/arrow-up/ArrowUp';
+import ResponsivePlayer from '../../components/video/ResponsivePlayer';
 
 const Home = () => {
     return (
         <div id='home'>
             <Title />
             <Navigation />
+            <ArrowUp />
             <div className="content">
-                <h1>Acceuil</h1>
-                <div className='grid' id='grid1'>
-                    <div id='left'>
-                        <h1>Une Fake News, c'est quoi ?</h1>
+                <div className='grid'>
+                    <div className='element' id="element1"><h1>Titre 1</h1></div>
+                    <div className='element' id="element2">
+                        <ResponsivePlayer />
                     </div>
-                    <div id='right'></div>
-                </div>
-                <div className='grid' id='grid2'>
-                    <div id='left'></div>
-                    <div id='right'></div>
+                    <div className='element' id="element3"><h1>Titre 3</h1></div>
+                    <div className='element' id="element4"><h1>Titre 4</h1></div>
                 </div>
             </div>
             <Footer />

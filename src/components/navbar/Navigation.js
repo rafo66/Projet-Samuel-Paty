@@ -1,5 +1,5 @@
-import Switch from './Switch';
-import ToggleDarkMode from './ToggleDarkMode';
+import Switch from './switch/Switch';
+import ToggleDarkMode from './switch/ToggleDarkMode';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
