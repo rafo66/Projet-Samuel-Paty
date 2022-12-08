@@ -1,32 +1,33 @@
 var json = require('../../../assets/colors/theme-orange.json');
-console.log(json.DarkMode);
 
 const ToggleDarkMode = ({ state }) => {
     console.log('on passe a l\'état ' + state + '.')
     if (state === true) {
-        document.documentElement.style.setProperty('--background', '#232946');
-        document.documentElement.style.setProperty('--headline', '#fffffe');
-        document.documentElement.style.setProperty('--paragraph', '#b8c1ec');
-        document.documentElement.style.setProperty('--button', '#eebbc3');
-        document.documentElement.style.setProperty('--button-text', 'var(--headline)');
-        document.documentElement.style.setProperty('--button-text-hover', 'var(--background)');
-        document.documentElement.style.setProperty('--stroke', 'var(--headline)');
-        document.documentElement.style.setProperty('--main', 'var(--paragraph)');
-        document.documentElement.style.setProperty('--highlight', 'var(--button)');
-        document.documentElement.style.setProperty('--secondary', 'var(--headline)');
-        document.documentElement.style.setProperty('--tertiary', 'var(--button)');
+        //light mode colors
+        document.documentElement.style.setProperty('--background', json.DarkMode[0].background);
+        document.documentElement.style.setProperty('--headline', json.DarkMode[0].headline);
+        document.documentElement.style.setProperty('--paragraph', json.DarkMode[0].paragraph);
+        document.documentElement.style.setProperty('--button', json.DarkMode[0].button);
+        document.documentElement.style.setProperty('--button-text', json.DarkMode[0]['button-text']);
+        document.documentElement.style.setProperty('--button-text-hover', json.DarkMode[0]['button-text-hover']);
+        document.documentElement.style.setProperty('--stroke', json.DarkMode[0].stroke);
+        document.documentElement.style.setProperty('--main', json.DarkMode[0].main);
+        document.documentElement.style.setProperty('--highlight', json.DarkMode[0].highlight);
+        document.documentElement.style.setProperty('--secondary', json.DarkMode[0].secondary);
+        document.documentElement.style.setProperty('--tertiary', json.DarkMode[0].tertiary);
     } else {
-        document.documentElement.style.setProperty('--background', '#fef6e4');
-        document.documentElement.style.setProperty('--headline', '#001858');
-        document.documentElement.style.setProperty('--paragraph', '#172c66');
-        document.documentElement.style.setProperty('--button', '#f582ae');
-        document.documentElement.style.setProperty('--button-text', 'var(--headline)');
-        document.documentElement.style.setProperty('--button-text-hover', 'var(--headline)');
-        document.documentElement.style.setProperty('--stroke', 'var(--headline)');
-        document.documentElement.style.setProperty('--main', '#f3d2c1');
-        document.documentElement.style.setProperty('--highlight', 'var(--background)');
-        document.documentElement.style.setProperty('--secondary', '#8bd3dd');
-        document.documentElement.style.setProperty('--tertiary', 'var(--button)');
+        //dark mode colors
+        document.documentElement.style.setProperty('--background', json.LightMode[0].background);
+        document.documentElement.style.setProperty('--headline', json.LightMode[0].headline);
+        document.documentElement.style.setProperty('--paragraph', json.LightMode[0].paragraph);
+        document.documentElement.style.setProperty('--button', json.LightMode[0].button);
+        document.documentElement.style.setProperty('--button-text', json.LightMode[0]['button-text']);
+        document.documentElement.style.setProperty('--button-text-hover', json.LightMode[0]['button-text-hover']);
+        document.documentElement.style.setProperty('--stroke', json.LightMode[0].stroke);
+        document.documentElement.style.setProperty('--main', json.LightMode[0].main);
+        document.documentElement.style.setProperty('--highlight', json.LightMode[0].highlight);
+        document.documentElement.style.setProperty('--secondary', json.LightMode[0].secondary);
+        document.documentElement.style.setProperty('--tertiary', json.LightMode[0].tertiary);
     }
 }
 
