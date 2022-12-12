@@ -1,5 +1,5 @@
 .content {
-    height: 1000vh;
+    // height: 1000vh;
     width: 100vw;
     background-color: var(--background);
     display: block;
@@ -15,10 +15,10 @@
         grid-auto-columns: 1fr;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        border-bottom: 3px solid var(--stroke);
+        border-bottom: 3px solid var(--headline);
 
         .element {
-            border-right: 3px solid var(--stroke);
+            border-right: 3px solid var(--headline);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -30,7 +30,7 @@
 
         #element1,
         #element2 {
-            border-bottom: 3px solid var(--stroke);
+            border-bottom: 3px solid var(--headline);
         }
     }
 }

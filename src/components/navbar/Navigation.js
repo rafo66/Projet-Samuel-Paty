@@ -2,8 +2,16 @@ import Switch from './switch/Switch';
 import ToggleDarkMode from './switch/ToggleDarkMode';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+var isLoaded = false;
 
 const Navigation = () => {
+    const DefaultDarkMode = () => {
+        if (!isLoaded) {
+            isLoaded = true
+            ToggleDarkMode('light')
+        }
+    }
+    DefaultDarkMode()
     const [isToggled, setIsToggled] = useState(false);
     return (
         <div className="nav">

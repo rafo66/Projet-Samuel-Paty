@@ -1,6 +1,6 @@
 .switch {
-    --line: var(--stroke);
-    --dot: var(--stroke);
+    --line: var(--headline);
+    --dot: var(--headline);
     --circle: var(--tertiary);
     --duration: .3s;
     cursor: pointer;

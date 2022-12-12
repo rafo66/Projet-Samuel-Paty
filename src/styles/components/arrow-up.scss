@@ -1,8 +1,8 @@
 .btn {
     height: 75px;
     width: 75px;
-    background: var(--background);
-    border: 3px solid var(--stroke);
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid var(--headline);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -13,6 +13,6 @@
     cursor: pointer;
 }
 
-.icon {
-    width: 40px;
+path {
+    fill: var(--headline);
 }
