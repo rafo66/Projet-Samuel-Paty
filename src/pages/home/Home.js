@@ -1,13 +1,11 @@
 import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
 import Footer from '../../components/footer/Footer';
-import Title from '../../components/title/Title';
 import ArrowUp from '../../components/arrow-up/ArrowUp';
 
 const Home = () => {
     return (
         <div id='home'>
-            <Title />
             <Navigation />
             <ArrowUp />
             <div className="content">

@@ -2,7 +2,8 @@
     height: 75px;
     width: 75px;
     background: rgba(0, 0, 0, 0);
-    border: 3px solid var(--headline);
+    mix-blend-mode: exclusion;
+    border: 3px solid #eff0f3;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -14,5 +15,6 @@
 }
 
 path {
-    fill: var(--headline);
+    fill: #eff0f3;
+    mix-blend-mode: exclusion;
 }

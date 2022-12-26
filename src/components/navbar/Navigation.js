@@ -15,7 +15,6 @@ const Navigation = () => {
     const [isToggled, setIsToggled] = useState(false);
     return (
         <div className="nav">
-            <h1 className='logo'>Projet Samuel Paty</h1>
             <ul className='nav-links'>
                 <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>Accueil</li>

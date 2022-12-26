@@ -1,9 +1,4 @@
 .nav {
-    .logo {
-        display: none;
-        font-size: clamp(1rem, 2.5vw, 2rem);
-        font-weight: bold;
-    }
 
     a {
         color: var(--headline);
@@ -27,7 +22,7 @@
 
     li {
         margin: 0 25px;
-        font-size: clamp(0.5em, 2vw, 1.5em);
+        font-size: 1.2em;
         transition: 0.2s;
     }
 

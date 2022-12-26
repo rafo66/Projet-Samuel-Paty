@@ -1,0 +1,25 @@
+.footer {
+    height: 20vh;
+    background-color: var(--background);
+    border-top: 3px solid var(--headline);
+    display: flex;
+    justify-content: center;
+
+    p {
+        line-height: 2em;
+        color: var(--headline);
+        font-size: 1.3em;
+        font-weight: 200;
+        text-align: center;
+
+        a {
+            color: var(--tertiary);
+            text-decoration: underline;
+        }
+    }
+
+    .p1 {
+        padding-top: 1.5em;
+    }
+
+}
