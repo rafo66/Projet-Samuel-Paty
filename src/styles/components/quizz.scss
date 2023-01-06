@@ -1,0 +1,46 @@
+.quizz,
+.ending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+
+
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 50px;
+    margin: 10px 0;
+    border: 3px solid var(--headline);
+    color: var(--headline);
+    background-color: var(--background);
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: var(--tertiary);
+        color: #fff;
+    }
+
+    &.active {
+        background-color: var(--tertiary);
+        color: #fff;
+    }
+}
+
+#next-button {
+    margin-top: 10vh;
+    width: 50%;
+}
