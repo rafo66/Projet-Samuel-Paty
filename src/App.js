@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //pages :
 import Home from './pages/home/Home';
 import Projet from './pages/projet/Projet';
-import Decodeur from './pages/decodeur/Decodeur';
+import MiniJeux from './pages/minijeux/MiniJeux';
 import Credits from './pages/credits/Credits';
 import Other from './pages/other/Other';
 
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projet" element={<Projet />} />
-        <Route path="/decodeur" element={<Decodeur />} />
+        <Route path="/mini-jeux" element={<MiniJeux />} />
         <Route path="/credits" element={<Credits />} />
         {/* path="*" fonctionne si l'url ne correspond à rien de déclaré au dessus*/}
         <Route path="*" element={<Other />} />

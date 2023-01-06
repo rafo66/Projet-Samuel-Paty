@@ -22,10 +22,10 @@ const Navigation = () => {
                 <NavLink to="/projet" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>Projet</li>
                 </NavLink>
-                <NavLink to="/decodeur" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>Décodeur</li>
+                <NavLink to="/mini-jeux" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <li>Mini Jeux</li>
                 </NavLink>
-                <NavLink to='/credits' className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                <NavLink to="/credits" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>Crédits</li>
                 </NavLink>
             </ul>
