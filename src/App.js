@@ -12,10 +12,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Projet-Samuel-Paty" element={<Home />} />
-        <Route path="/Projet-Samuel-Paty/projet" element={<Projet />} />
-        <Route path="/Projet-Samuel-Paty/mini-jeux" element={<MiniJeux />} />
-        <Route path="/Projet-Samuel-Paty/credits" element={<Credits />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projet" element={<Projet />} />
+        <Route path="/mini-jeux" element={<MiniJeux />} />
+        <Route path="/credits" element={<Credits />} />
         {/* path="*" fonctionne si l'url ne correspond à rien de déclaré au dessus*/}
         <Route path="*" element={<Other />} />
       </Routes>
