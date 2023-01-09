@@ -12,7 +12,7 @@ const Other = () => {
                     <img id="image" src={illustration} alt='illustration' />
                 </div>
                 <h2>L'<strong>url</strong> que vous avez entré ne renvoie nulle part !</h2>
-                <NavLink to={"/"}>
+                <NavLink to={"/Projet-Samuel-Paty"}>
                     <h3>Retourner en lieu sûr</h3>
                 </NavLink>
             </div>
