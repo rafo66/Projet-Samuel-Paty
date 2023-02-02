@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 /*reset propreties*/
@@ -28,17 +29,6 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     overflow: overlay;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: var(--background);
-
-    h1 {
-        color: var(--headline);
-    }
 }
