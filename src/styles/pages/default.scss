@@ -16,11 +16,11 @@
         .title {
             position: absolute;
             background-color: rgba($color: #fff, $alpha: 0.8);
-            box-shadow: 0em 0 0.2em var(--headline);
+            box-shadow: 0em 0 0.2vh var(--headline);
             border: 3px solid var(--headline);
-            padding: 20px 0;
+            padding: 4vh 0;
             margin: 0px 50px;
-            border-radius: 10em;
+            border-radius: 50vh;
 
             h1 {
                 padding: 0.5em;

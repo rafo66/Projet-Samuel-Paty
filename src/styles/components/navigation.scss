@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 20px 40px;
+    padding: 3vh 4vw;
     width: 100%;
     background-color: var(--background);
     color: var(--headline);
@@ -23,7 +23,7 @@
 
     li {
         margin: 0 25px;
-        font-size: 1.2em;
+        font-size: 2.5vh;
         transition: 0.2s;
     }
 
@@ -33,11 +33,5 @@
 
     .nav-active li {
         color: var(--tertiary);
-    }
-}
-
-@media screen and (max-width:500px) {
-    .nav-links {
-        display: none;
     }
 }
