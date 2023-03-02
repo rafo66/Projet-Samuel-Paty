@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Projet-Samuel-Paty/static/css/main.20612bfb.css",
-    "main.js": "/Projet-Samuel-Paty/static/js/main.b4d2d399.js",
-    "static/media/home-background.png": "/Projet-Samuel-Paty/static/media/home-background.928e65e4a041198c9884.png",
+    "main.css": "/Projet-Samuel-Paty/static/css/main.7dd4faf3.css",
+    "main.js": "/Projet-Samuel-Paty/static/js/main.500294ba.js",
+    "static/media/home-background.png": "/Projet-Samuel-Paty/static/media/home-background.933e2b64534c69aa3d9c.png",
     "static/media/404-illustration.svg": "/Projet-Samuel-Paty/static/media/404-illustration.ddd5a74bc0c113c6ba9afc3937290e14.svg",
     "index.html": "/Projet-Samuel-Paty/index.html",
-    "main.20612bfb.css.map": "/Projet-Samuel-Paty/static/css/main.20612bfb.css.map",
-    "main.b4d2d399.js.map": "/Projet-Samuel-Paty/static/js/main.b4d2d399.js.map"
+    "main.7dd4faf3.css.map": "/Projet-Samuel-Paty/static/css/main.7dd4faf3.css.map",
+    "main.500294ba.js.map": "/Projet-Samuel-Paty/static/js/main.500294ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.20612bfb.css",
-    "static/js/main.b4d2d399.js"
+    "static/css/main.7dd4faf3.css",
+    "static/js/main.500294ba.js"
   ]
 }
