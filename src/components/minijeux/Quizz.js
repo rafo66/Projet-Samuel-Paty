@@ -90,7 +90,7 @@ function QuizApp() {
     return (
         <div className='quizz'>
             <h1>{question.text}</h1>
-            <ul>
+            <ul id="answer-container">
                 {question.choices.map((choice, index) => (
                     <li key={index}>
                         <button className='button' key={choice} value={choice} onClick={handleAnswer}>

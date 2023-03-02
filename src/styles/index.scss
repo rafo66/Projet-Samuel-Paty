@@ -1,8 +1,15 @@
+// settings stylesheet :
 @import "./settings";
+// components stylesheets :
 @import "./components/navigation.scss";
 @import "./components/switch.scss";
 @import "./components/footer.scss";
 @import "./components/arrow-up.scss";
 @import "./components/responsive-player.scss";
 @import "./components/quizz.scss";
-@import "./pages.scss";
+// pages stylesheets :
+@import "./pages/default.scss";
+@import "./pages/home.scss";
+@import "./pages/interviews.scss";
+@import "./pages/mini-jeux.scss";
+@import "./pages/credits.scss";

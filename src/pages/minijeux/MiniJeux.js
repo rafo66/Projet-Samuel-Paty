@@ -6,13 +6,11 @@ import Footer from '../../components/footer/Footer';
 
 const MiniJeux = () => {
     return (
-        <div id='minijeux'>
+        <div id='minijeux-page'>
             <Navigation />
-            <ArrowUp />
             <div className="content">
                 <Quizz />
             </div>
-            <Footer />
         </div>
     );
 };

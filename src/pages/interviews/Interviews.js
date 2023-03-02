@@ -4,11 +4,11 @@ import ArrowUp from '../../components/arrow-up/ArrowUp';
 
 const Projet = () => {
     return (
-        <div id='projet'>
+        <div id='interviews-page'>
             <Navigation />
             <ArrowUp />
             <div className="content">
-                <h1>Projet</h1>
+                <h1>Interviews</h1>
             </div>
         </div>
     );

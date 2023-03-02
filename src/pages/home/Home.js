@@ -6,7 +6,7 @@ import background from '../../assets/img/home-background.png';
 
 const Home = () => {
     return (
-        <div id='home'>
+        <div id='home-page'>
             <Navigation />
             <ArrowUp />
             <div className="content">

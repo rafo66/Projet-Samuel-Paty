@@ -7,10 +7,6 @@
     margin: 0 auto;
     width: 100%;
 
-
-    p {
-        font-size: 1.2rem;
-    }
 }
 
 .button {
@@ -24,7 +20,7 @@
     color: var(--headline);
     background-color: var(--background);
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     user-select: none;
     transition: all 0.3s ease;
@@ -38,6 +34,10 @@
         background-color: var(--tertiary);
         color: #fff;
     }
+}
+
+#answer-container {
+    margin: 5vh 0;
 }
 
 #next-button {

@@ -4,7 +4,7 @@ import ArrowUp from '../../components/arrow-up/ArrowUp';
 
 const About = () => {
     return (
-        <div id='credits'>
+        <div id='credits-page'>
             <Navigation />
             <ArrowUp />
             <div className="content">
