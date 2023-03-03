@@ -11,19 +11,19 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 3vh 4vw;
+    padding: calc(20 * var(--res)) calc(20 * var(--res));
     width: 100%;
     background-color: var(--background);
     color: var(--headline);
-    border-bottom: 3px solid var(--headline);
+    border-bottom: var(--stroke-size) solid var(--headline);
 }
 
 .nav-links {
     display: flex;
 
     li {
-        margin: 0 25px;
-        font-size: 2.5vh;
+        margin: 0 calc(40 * var(--res));
+        font-size: calc(25 * var(--res));
         transition: 0.2s;
     }
 
@@ -33,5 +33,11 @@
 
     .nav-active li {
         color: var(--tertiary);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        justify-content: center;
     }
 }

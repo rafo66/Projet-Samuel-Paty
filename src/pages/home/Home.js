@@ -23,8 +23,14 @@ const Home = () => {
                         <h2>Démocratie</h2>
                         <p>La démocratie est un système politique dans lequel le pouvoir est exercé par le peuple, soit directement, soit par l'intermédiaire de représentants élus. Le terme "démocratie" vient du grec ancien "démokratia", composé des mots "dêmos" signifiant "peuple" et "kratos" signifiant "pouvoir".</p>
                     </div>
-                    <div className='element' id="element3"></div>
-                    <div className='element' id="element4"><h2>Titre 4</h2></div>
+                    <div className='element' id="element3">
+                        <h2>Titre 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odit iure ab beatae nemo placeat consequuntur exercitationem repudiandae voluptatum, dolore non illum, debitis adipisci quo? Nihil ipsum odio dolor non.</p>
+                    </div>
+                    <div className='element' id="element4">
+                        <h2>Titre 4</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magnam corrupti non aut, a illo quo aspernatur eos tenetur fuga, impedit, illum quaerat hic iure rerum veritatis itaque quisquam voluptates?</p>
+                    </div>
                 </div>
 
             </div>

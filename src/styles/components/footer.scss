@@ -1,33 +1,29 @@
 .footer {
-    height: 20vh;
     background-color: var(--background);
-    border-top: 3px solid var(--headline);
+    border-top: var(--stroke-size) solid var(--headline);
+    padding: 1em 0;
     display: flex;
     justify-content: center;
 
     p {
-        line-height: 1.5em;
+        line-height: calc(30 * var(--res));
         color: var(--headline);
-        font-size: 1.3em;
+        font-size: calc(22 * var(--res));
         font-weight: 200;
         text-align: center;
-        padding: 1em 0;
+        padding-bottom: 1em;
     }
 
     ul {
         display: flex;
-        justify-content: center;
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        justify-content: space-evenly;
 
         li {
-            margin: 0 1em;
 
             a {
                 color: var(--headline);
                 text-decoration: none;
-                font-size: 1.3em;
+                font-size: calc(24 * var(--res));
                 font-weight: 200;
 
                 &:hover {
@@ -35,5 +31,12 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
     }
 }
