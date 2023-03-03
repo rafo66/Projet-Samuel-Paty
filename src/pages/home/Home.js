@@ -16,20 +16,15 @@ const Home = () => {
                 </div>
                 <div className='grid'>
                     <div className='element' id="element1">
-                        <div className='content'>
-                            <h2>Infox</h2>
-                            <p>L'infox (ou désinformation) est de l'information erronée ou trompeuse diffusée intentionnellement ou non pour influencer les opinions ou les croyances d'un individu ou d'un groupe de personnes. Cela peut être fait par négligence, pour tromper ou pour manipuler l'opinion publique. Il est important de faire la distinction entre l'infox et l'information véridique pour maintenir une société bien informée.</p>
-                        </div>
+                        <h2>Infox</h2>
+                        <p>L'infox (ou désinformation) est de l'information erronée ou trompeuse diffusée intentionnellement ou non pour influencer les opinions ou les croyances d'un individu ou d'un groupe de personnes. Cela peut être fait par négligence, pour tromper ou pour manipuler l'opinion publique. Il est important de faire la distinction entre l'infox et l'information véridique pour maintenir une société bien informée.</p>
                     </div>
-                    <div className='element' id="element2"><h2>Titre 2</h2></div>
-                    <div className='element' id="element3">
-                        <div className='content'>
-                            <h2>Démocratie</h2>
-                            <p>La démocratie est un système politique dans lequel le pouvoir est exercé par le peuple, soit directement, soit par l'intermédiaire de représentants élus. Le terme "démocratie" vient du grec ancien "démokratia", composé des mots "dêmos" signifiant "peuple" et "kratos" signifiant "pouvoir".</p>
-                        </div>
+                    <div className='element' id="element2">
+                        <h2>Démocratie</h2>
+                        <p>La démocratie est un système politique dans lequel le pouvoir est exercé par le peuple, soit directement, soit par l'intermédiaire de représentants élus. Le terme "démocratie" vient du grec ancien "démokratia", composé des mots "dêmos" signifiant "peuple" et "kratos" signifiant "pouvoir".</p>
                     </div>
+                    <div className='element' id="element3"></div>
                     <div className='element' id="element4"><h2>Titre 4</h2></div>
-
                 </div>
 
             </div>

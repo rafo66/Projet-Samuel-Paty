@@ -24,7 +24,7 @@
 
             h1 {
                 padding: 0.5em;
-                font-size: 4vw;
+                font-size: calc(64 * var(--res));
                 color: var(--headline);
                 text-align: center;
                 text-transform: uppercase;
@@ -47,19 +47,19 @@
         border-top: 3px solid var(--headline);
 
         .element {
-            height: 50vh;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             .content {
                 h2 {
-                    font-size: 2em;
+                    font-size: calc(32 * var(--res));
                 }
 
                 p {
-                    font-size: 1.5em;
-                    padding: 0 30px;
+                    font-size: calc(24 * var(--res));
+                    padding: 0 calc(20 * var(--res));
+                    margin-bottom: calc(40 * var(--res));
                     text-align: center;
                 }
             }

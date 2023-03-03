@@ -9,7 +9,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    transition: 0.2s;
 }
 
 /*scrollbar*/
@@ -33,10 +32,14 @@ body {
     overflow: overlay;
 }
 
-/*Responsive content for phone*/
+/*Responsive content*/
 
-@media screen and (max-width:600px) {
-    body {
-        font-family: system-ui, -apple-system;
-    }
+html {
+    --res: calc(0.01 * 10vmin);
 }
+
+// @media screen and (max-width:600px) {
+//     body {
+//         font-family: system-ui, -apple-system;
+//     }
+// }
