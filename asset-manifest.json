@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Projet-Samuel-Paty/static/css/main.66fac7bb.css",
-    "main.js": "/Projet-Samuel-Paty/static/js/main.7c4ca9a3.js",
+    "main.css": "/Projet-Samuel-Paty/static/css/main.faa15025.css",
+    "main.js": "/Projet-Samuel-Paty/static/js/main.f263b1c6.js",
     "static/media/home-background.png": "/Projet-Samuel-Paty/static/media/home-background.933e2b64534c69aa3d9c.png",
     "static/media/404-illustration.svg": "/Projet-Samuel-Paty/static/media/404-illustration.ddd5a74bc0c113c6ba9afc3937290e14.svg",
     "index.html": "/Projet-Samuel-Paty/index.html",
-    "main.66fac7bb.css.map": "/Projet-Samuel-Paty/static/css/main.66fac7bb.css.map",
-    "main.7c4ca9a3.js.map": "/Projet-Samuel-Paty/static/js/main.7c4ca9a3.js.map"
+    "main.faa15025.css.map": "/Projet-Samuel-Paty/static/css/main.faa15025.css.map",
+    "main.f263b1c6.js.map": "/Projet-Samuel-Paty/static/js/main.f263b1c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.66fac7bb.css",
-    "static/js/main.7c4ca9a3.js"
+    "static/css/main.faa15025.css",
+    "static/js/main.f263b1c6.js"
   ]
 }
