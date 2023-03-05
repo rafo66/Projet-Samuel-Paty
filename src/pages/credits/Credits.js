@@ -2,16 +2,15 @@ import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
 import ArrowUp from '../../components/arrow-up/ArrowUp';
 
-const About = () => {
+const Credits = () => {
     return (
         <div id='credits-page'>
             <Navigation />
             <ArrowUp />
             <div className="content">
-                <h1>Crédits</h1>
             </div>
         </div>
     );
 };
 
-export default About;
+export default Credits;
