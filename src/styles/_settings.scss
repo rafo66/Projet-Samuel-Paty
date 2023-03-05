@@ -9,7 +9,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    transition: 0.2s;
 }
 
 /*scrollbar*/
@@ -31,4 +30,29 @@
 body {
     font-family: 'Montserrat';
     overflow: overlay;
+}
+
+/*Responsive content*/
+
+html {
+    --res: calc(0.01 * 10vmin);
+    --stroke-size: calc(3.2 * var(--res));
+}
+
+@media screen and (max-width:600px) {
+    .arrowup {
+        display: none;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
 }

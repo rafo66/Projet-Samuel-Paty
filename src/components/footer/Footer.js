@@ -11,7 +11,7 @@ const Footer = () => {
                 </p>
                 <ul>
                     <li>
-                        <a href='https://www.aphg.fr/'>Site de l'APGH</a>
+                        <a href='https://www.aphg.fr/'>Site de l'APHG</a>
                     </li>
                     <li>
                         <a href='https://github.com/mapfire/Projet-Samuel-Paty'>Consulter le <l>GitHub</l> du site</a>

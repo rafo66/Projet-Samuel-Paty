@@ -1,1 +1,88 @@
-#home-page {}
+#home-page {
+    .content {
+        background-color: var(--background);
+        display: flex;
+        flex-direction: column;
+
+        .title-container {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+
+            #background {
+                width: 100%;
+                height: 100%;
+            }
+
+            .title {
+                position: absolute;
+                background-color: rgba($color: #fff, $alpha: 0.8);
+                border: var(--stroke-size) solid var(--headline);
+                margin: 0 calc(150 * var(--res));
+                padding: calc(40 * var(--res)) calc(100 * var(--res));
+                border-radius: 10em;
+
+                h1 {
+                    font-size: clamp(1em, 1.5vw, 2.5em);
+                    color: var(--headline);
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        h2 {
+            color: var(--headline);
+            padding: 1em 0;
+            text-align: center;
+            line-height: 1.5em;
+        }
+
+        .grid {
+            display: grid;
+            grid-auto-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            border-top: var(--stroke-size) solid var(--headline);
+
+            .element {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    font-size: calc(32 * var(--res));
+                }
+
+                p {
+                    font-size: calc(24 * var(--res));
+                    padding: 0 calc(20 * var(--res));
+                    margin-bottom: calc(40 * var(--res));
+                    text-align: center;
+                }
+
+                .image {
+                    max-width: 60%;
+                    min-width: 40%;
+                    height: auto;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+
+            }
+
+            #element1,
+            #element2 {
+                border-bottom: var(--stroke-size) solid var(--headline);
+            }
+
+            #element1,
+            #element3 {
+                border-right: var(--stroke-size) solid var(--headline);
+            }
+        }
+    }
+}

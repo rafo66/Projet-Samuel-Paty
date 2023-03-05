@@ -1,17 +1,19 @@
 import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
-import ArrowUp from '../../components/arrow-up/ArrowUp';
+import Footer from '../../components/footer/Footer';
+import ResponsivePlayer from '../../components/video/ResponsivePlayer';
 
-const Projet = () => {
+const Interview = () => {
     return (
         <div id='interviews-page'>
             <Navigation />
-            <ArrowUp />
             <div className="content">
-                <h1>Interviews</h1>
+
+                <ResponsivePlayer url='https://www.youtube.com/watch?v=1MieluM0c6c' />
             </div>
+            <Footer />
         </div>
     );
 };
 
-export default Projet;
+export default Interview;

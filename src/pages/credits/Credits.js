@@ -2,12 +2,13 @@ import React from 'react';
 import Navigation from '../../components/navbar/Navigation';
 import ArrowUp from '../../components/arrow-up/ArrowUp';
 
-const About = () => {
+const Credits = () => {
     return (
         <div id='credits-page'>
             <Navigation />
             <ArrowUp />
             <div className="content">
+
                 <h1>Ce projet collaboratif a été réalisé par :</h1>
 
                 <h2 className='subtitle'>Nos Développeurs :</h2>
@@ -38,9 +39,10 @@ const About = () => {
 
                 <h2 className='subtitle2'>Sous la direction de notre professeure</h2><h2 className='subtitle_fin'>d'Enseignement Moral et Civique :</h2>
                 <h2><span>M</span>eli THARY</h2>
+
             </div>
         </div>
     );
 };
 
-export default About;
+export default Credits;
